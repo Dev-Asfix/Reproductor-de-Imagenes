@@ -12,3 +12,4 @@ d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproduct
 d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\obj\Debug\Reproductor de Imagenes.exe
 d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\obj\Debug\Reproductor de Imagenes.xml
 d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\obj\Debug\Reproductor de Imagenes.pdb
+D:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\obj\Debug\Reproductor_de_Imagenes.LoginForm.resources

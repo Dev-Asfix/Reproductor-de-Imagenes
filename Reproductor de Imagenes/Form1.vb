@@ -21,10 +21,13 @@ Public Class Form1
         }
         cantidadImagenes = imagenes.Length
 
-        ProgressBar1.Location = New Point(10, 10) ' Ajusta la posición según sea necesario
+
         ProgressBar1.Size = New Size(200, 30) ' Ajusta el tamaño según sea necesario
         ProgressBar1.Maximum = 100
         Me.Controls.Add(ProgressBar1)
+
+
+
 
         MostrarImagen() ' Muestra la primera imagen al cargar el formulario
     End Sub
@@ -62,9 +65,11 @@ Public Class Form1
     End Sub
 
     Private Sub btn_salir_pantalla_completa_Click_Click(sender As Object, e As EventArgs) Handles btn_salir_pantalla_completa_Click.Click
-        Me.FormBorderStyle = FormBorderStyle.Sizable
+        Me.FormBorderStyle = FormBorderStyle.None
         Me.WindowState = FormWindowState.Normal
         pb_Principal.Dock = DockStyle.None
+
+
     End Sub
 
 
@@ -73,8 +78,11 @@ Public Class Form1
 
 
 
+    Private Sub btnMinimizar_Click_Click(sender As Object, e As EventArgs) Handles btnMinimizar_Click.Click
+        Me.WindowState = FormWindowState.Minimized
+    End Sub
 
-
-
-
+    Private Sub btnCerrar_Click_Click(sender As Object, e As EventArgs) Handles btnCerrar_Click.Click
+        Me.Close()
+    End Sub
 End Class

@@ -19,6 +19,42 @@ ReproductordeImagenes
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.agregar_usuario">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.agregar_usuario2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.encendido_apagado">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.iniciar_sesion">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.iniciar_sesion1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.login">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.login1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.pestanas">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.pestanas1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.Recurso1">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -48,6 +84,14 @@ ReproductordeImagenes
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.Recurso8">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.usuario">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Reproductor_de_Imagenes.My.Resources.Resources.usuario1">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

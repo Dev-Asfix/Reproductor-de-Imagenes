@@ -28,12 +28,15 @@ Partial Class Form1
         Me.etiq = New System.Windows.Forms.Label()
         Me.btn_pantalla_completa_Click = New System.Windows.Forms.Button()
         Me.btn_salir_pantalla_completa_Click = New System.Windows.Forms.Button()
+        Me.btnMinimizar_Click = New System.Windows.Forms.Button()
+        Me.btnCerrar_Click = New System.Windows.Forms.Button()
         Me.ProgressBar1 = New Reproductor_de_Imagenes.CustomProgressBar()
         CType(Me.pb_Principal, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pb_Principal
         '
+        Me.pb_Principal.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.pb_Principal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.pb_Principal.Image = Global.Reproductor_de_Imagenes.My.Resources.Resources.Recurso7
         Me.pb_Principal.Location = New System.Drawing.Point(52, 81)
@@ -73,12 +76,14 @@ Partial Class Form1
         '
         'etiq
         '
-        Me.etiq.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.etiq.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.etiq.AutoSize = True
-        Me.etiq.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.etiq.BackColor = System.Drawing.Color.Transparent
         Me.etiq.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.etiq.Font = New System.Drawing.Font("MingLiU_HKSCS-ExtB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.etiq.Location = New System.Drawing.Point(237, 390)
+        Me.etiq.ForeColor = System.Drawing.Color.MediumSpringGreen
+        Me.etiq.Location = New System.Drawing.Point(231, 385)
         Me.etiq.Name = "etiq"
         Me.etiq.Size = New System.Drawing.Size(71, 21)
         Me.etiq.TabIndex = 3
@@ -86,30 +91,67 @@ Partial Class Form1
         '
         'btn_pantalla_completa_Click
         '
-        Me.btn_pantalla_completa_Click.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.btn_pantalla_completa_Click.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.btn_pantalla_completa_Click.BackColor = System.Drawing.Color.Transparent
+        Me.btn_pantalla_completa_Click.BackgroundImage = Global.Reproductor_de_Imagenes.My.Resources.Resources.pestanas
+        Me.btn_pantalla_completa_Click.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_pantalla_completa_Click.Cursor = System.Windows.Forms.Cursors.SizeNESW
+        Me.btn_pantalla_completa_Click.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_pantalla_completa_Click.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_pantalla_completa_Click.Location = New System.Drawing.Point(52, 362)
+        Me.btn_pantalla_completa_Click.Location = New System.Drawing.Point(52, 331)
         Me.btn_pantalla_completa_Click.Name = "btn_pantalla_completa_Click"
-        Me.btn_pantalla_completa_Click.Size = New System.Drawing.Size(88, 25)
+        Me.btn_pantalla_completa_Click.Size = New System.Drawing.Size(35, 25)
         Me.btn_pantalla_completa_Click.TabIndex = 5
-        Me.btn_pantalla_completa_Click.Text = "Maximizar"
-        Me.btn_pantalla_completa_Click.UseVisualStyleBackColor = True
+        Me.btn_pantalla_completa_Click.UseVisualStyleBackColor = False
         '
         'btn_salir_pantalla_completa_Click
         '
-        Me.btn_salir_pantalla_completa_Click.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.btn_salir_pantalla_completa_Click.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btn_salir_pantalla_completa_Click.BackColor = System.Drawing.Color.Transparent
+        Me.btn_salir_pantalla_completa_Click.BackgroundImage = Global.Reproductor_de_Imagenes.My.Resources.Resources.pestanas1
+        Me.btn_salir_pantalla_completa_Click.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_salir_pantalla_completa_Click.Cursor = System.Windows.Forms.Cursors.SizeNESW
+        Me.btn_salir_pantalla_completa_Click.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_salir_pantalla_completa_Click.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_salir_pantalla_completa_Click.Location = New System.Drawing.Point(432, 362)
+        Me.btn_salir_pantalla_completa_Click.Location = New System.Drawing.Point(472, 331)
         Me.btn_salir_pantalla_completa_Click.Name = "btn_salir_pantalla_completa_Click"
-        Me.btn_salir_pantalla_completa_Click.Size = New System.Drawing.Size(89, 25)
+        Me.btn_salir_pantalla_completa_Click.Size = New System.Drawing.Size(49, 25)
         Me.btn_salir_pantalla_completa_Click.TabIndex = 6
-        Me.btn_salir_pantalla_completa_Click.Text = "Minimizar"
-        Me.btn_salir_pantalla_completa_Click.UseVisualStyleBackColor = True
+        Me.btn_salir_pantalla_completa_Click.UseVisualStyleBackColor = False
+        '
+        'btnMinimizar_Click
+        '
+        Me.btnMinimizar_Click.BackColor = System.Drawing.Color.Transparent
+        Me.btnMinimizar_Click.BackgroundImage = Global.Reproductor_de_Imagenes.My.Resources.Resources.usuario1
+        Me.btnMinimizar_Click.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnMinimizar_Click.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMinimizar_Click.ForeColor = System.Drawing.SystemColors.Desktop
+        Me.btnMinimizar_Click.Location = New System.Drawing.Point(12, 7)
+        Me.btnMinimizar_Click.Name = "btnMinimizar_Click"
+        Me.btnMinimizar_Click.Size = New System.Drawing.Size(62, 54)
+        Me.btnMinimizar_Click.TabIndex = 8
+        Me.btnMinimizar_Click.UseVisualStyleBackColor = False
+        '
+        'btnCerrar_Click
+        '
+        Me.btnCerrar_Click.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnCerrar_Click.BackColor = System.Drawing.Color.Transparent
+        Me.btnCerrar_Click.BackgroundImage = Global.Reproductor_de_Imagenes.My.Resources.Resources.usuario
+        Me.btnCerrar_Click.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnCerrar_Click.Cursor = System.Windows.Forms.Cursors.Help
+        Me.btnCerrar_Click.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCerrar_Click.Location = New System.Drawing.Point(493, 12)
+        Me.btnCerrar_Click.Name = "btnCerrar_Click"
+        Me.btnCerrar_Click.Size = New System.Drawing.Size(54, 49)
+        Me.btnCerrar_Click.TabIndex = 9
+        Me.btnCerrar_Click.UseVisualStyleBackColor = False
         '
         'ProgressBar1
         '
+        Me.ProgressBar1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.ProgressBar1.BackColor = System.Drawing.Color.Black
         Me.ProgressBar1.Location = New System.Drawing.Point(184, 22)
+        Me.ProgressBar1.MaximumSize = New System.Drawing.Size(182, 34)
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(182, 34)
         Me.ProgressBar1.TabIndex = 7
@@ -122,6 +164,8 @@ Partial Class Form1
         Me.BackgroundImage = Global.Reproductor_de_Imagenes.My.Resources.Resources.Recurso7
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(577, 440)
+        Me.Controls.Add(Me.btnCerrar_Click)
+        Me.Controls.Add(Me.btnMinimizar_Click)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.btn_salir_pantalla_completa_Click)
         Me.Controls.Add(Me.btn_pantalla_completa_Click)
@@ -148,5 +192,7 @@ Partial Class Form1
     Friend WithEvents btn_pantalla_completa_Click As System.Windows.Forms.Button
     Friend WithEvents btn_salir_pantalla_completa_Click As System.Windows.Forms.Button
     Friend WithEvents ProgressBar1 As Reproductor_de_Imagenes.CustomProgressBar
+    Friend WithEvents btnMinimizar_Click As System.Windows.Forms.Button
+    Friend WithEvents btnCerrar_Click As System.Windows.Forms.Button
 
 End Class
