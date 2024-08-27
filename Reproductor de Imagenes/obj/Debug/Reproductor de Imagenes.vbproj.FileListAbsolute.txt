@@ -1,0 +1,14 @@
+C:\Users\Pablo_\AppData\Local\Temporary Projects\Reproductor de Imagenes\bin\Debug\Reproductor de Imagenes.exe.config
+C:\Users\Pablo_\AppData\Local\Temporary Projects\Reproductor de Imagenes\obj\Debug\Reproductor_de_Imagenes.Form1.resources
+C:\Users\Pablo_\AppData\Local\Temporary Projects\Reproductor de Imagenes\obj\Debug\Reproductor_de_Imagenes.Resources.resources
+C:\Users\Pablo_\AppData\Local\Temporary Projects\Reproductor de Imagenes\obj\Debug\Reproductor de Imagenes.vbproj.GenerateResource.Cache
+d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\bin\Debug\Reproductor de Imagenes.exe.config
+d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\obj\Debug\Reproductor_de_Imagenes.Form1.resources
+d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\obj\Debug\Reproductor_de_Imagenes.Resources.resources
+d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\obj\Debug\Reproductor de Imagenes.vbproj.GenerateResource.Cache
+d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\bin\Debug\Reproductor de Imagenes.exe
+d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\bin\Debug\Reproductor de Imagenes.pdb
+d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\bin\Debug\Reproductor de Imagenes.xml
+d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\obj\Debug\Reproductor de Imagenes.exe
+d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\obj\Debug\Reproductor de Imagenes.xml
+d:\Files\Documents\Visual Studio 2012\Projects\Reproductor de Imagenes\Reproductor de Imagenes\obj\Debug\Reproductor de Imagenes.pdb
